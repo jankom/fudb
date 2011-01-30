@@ -1,0 +1,24 @@
+~* fudb *~
+==========
+
+an experimental database, based on the functional programing concepts.
+
+idea 1:
+
+iter A:
+=========
+
+- only ram based
+- only K/V store
+- keys can be only strings
+- values can be numbers and strings
+- methods
+  - (get key)
+  - (set key)
+  - (update key (fn [k v] ()))
+  - (filter (fn [k, v] ()))
+  - (reduce (fn [a,k,v] ()))
+  - (map (fn [k,v] ()))
+
+- functions passed to the server are ran in the sandbox
+- interface is inspired by stomp
