@@ -13,10 +13,10 @@ iter A:
 - methods
   - (get key)
   - (set key value)
-  - (update key (fn [k v] ()))
-  - (filter (fn [k, v] ()))
-  - (reduce (fn [a,k,v] ()))
-  - (map (fn [k,v] ()))
+  - (update key ( fn [ k v ] ( ) ) )
+  - (filter ( fn [ k v ] ( ) ) )
+  - (reduce ( fn [ a k v ] ( ) ) )
+  - (map ( fn [ k v ] ( ) ) ) 
 
 - functions passed to the server are ran in the sandbox
 - interface is inspired by stomp
