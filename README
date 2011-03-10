@@ -9,10 +9,10 @@ iter A:
 - only ram based
 - only K/V store
 - keys can be only strings
-- values can be numbers and strings
+- values can only be numbers and strings
 - methods
   - (get key)
-  - (set key)
+  - (set key value)
   - (update key (fn [k v] ()))
   - (filter (fn [k, v] ()))
   - (reduce (fn [a,k,v] ()))
